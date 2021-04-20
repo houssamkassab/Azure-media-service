@@ -83,7 +83,7 @@ export class AppComponent implements OnInit {
       this.myPlayer.addEventListener('ended',()=>{
         supposedCurrentTime = 0;
         this.videoEnd = true;
-        console.log('Video ended');
+        console.log('Video ended ');
         console.log(this.videoEnd);
         // this.moveToTheNextItem(itemToInteractWith,true);
 
